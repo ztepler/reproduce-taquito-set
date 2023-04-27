@@ -1,0 +1,17 @@
+{
+  "name": "reproduce-taquito-set",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@taquito/signer": "^16.1.2",
+    "@taquito/taquito": "^16.1.2",
+    "dotenv": "^16.0.3"
+  }
+}

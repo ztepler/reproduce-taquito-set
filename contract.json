@@ -1,0 +1,20 @@
+[ { "prim": "parameter",
+    "args":
+      [ { "prim": "pair",
+          "args":
+            [ { "prim": "set", "args": [ { "prim": "address" } ],
+                "annots": [ "%addresses" ] },
+              { "prim": "nat", "annots": [ "%counter" ] } ] } ] },
+  { "prim": "storage",
+    "args":
+      [ { "prim": "pair",
+          "args":
+            [ { "prim": "set", "args": [ { "prim": "address" } ],
+                "annots": [ "%addresses" ] },
+              { "prim": "nat", "annots": [ "%counter" ] } ] } ] },
+  { "prim": "code",
+    "args":
+      [ [ { "prim": "CAR" },
+          { "prim": "NIL", "args": [ { "prim": "operation" } ] },
+          { "prim": "PAIR" } ] ] } ]
+

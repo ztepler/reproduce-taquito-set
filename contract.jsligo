@@ -1,0 +1,7 @@
+type storage = {
+    addresses: set<address>,
+    counter: nat
+};
+type result_t = [list<operation>, storage];
+const main = (newS: storage, _s: storage): result_t => [list([]), newS]
+

@@ -1,0 +1,4 @@
+{ parameter (pair (set %addresses address) (nat %counter)) ;
+  storage (pair (set %addresses address) (nat %counter)) ;
+  code { CAR ; NIL operation ; PAIR } }
+
